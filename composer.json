@@ -1,0 +1,28 @@
+{
+    "name": "moxar/upload",
+    "type": "library",
+    "description": "File upload library for laravel",
+    "keywords": ["upload","laravel"],
+    "homepage": "http://github.com/Moxar/upload",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexandre Thomas",
+            "email": "alexandre.thomas@outlook.fr",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": ">=4.2.9",
+        "illuminate/database": ">=4.2.9"
+    },
+    "autoload": {
+        "classmap": [
+        ],
+        "psr-0": {
+            "Moxar\\Upload": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
