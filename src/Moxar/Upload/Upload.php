@@ -10,6 +10,7 @@ class Upload {
     public $path;
     
     public function into($config) {
+        print_r(Config::get("upload::config"));exit;
         if(!is_array(Config::get("upload::config.".$config)) || empty(Config::get("upload::config.".$config))) {
             throw(new \Exception("config uploads.".$config." does not exist."));
         }
