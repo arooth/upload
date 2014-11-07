@@ -18,8 +18,6 @@
         "illuminate/database": ">=4.2.9"
     },
     "autoload": {
-        "classmap": [
-        ],
         "psr-0": {
             "Moxar\\Upload": "src/"
         }

@@ -6,13 +6,6 @@ class UploadServiceProvider extends ServiceProvider {
 
     protected $defer = true;
 
-//     public function register() {
-//         $this->app->bind('upload', function()
-//         {
-//             return new Upload;
-//         });
-//     }
-
     public function boot() {
             $this->package('moxar/upload');
     }
